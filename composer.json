@@ -1,0 +1,12 @@
+{
+    "name": "parvin/eagle-framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "parvin",
+            "email": "792027350@qq.com"
+        }
+    ],
+    "require": {}
+}
