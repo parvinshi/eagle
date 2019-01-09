@@ -8,5 +8,19 @@
             "email": "792027350@qq.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Eagle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4"
+    },
+    "provide": {
+        "psr/container-implementation": "^1.0"
+    }
 }

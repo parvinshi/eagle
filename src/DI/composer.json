@@ -1,0 +1,17 @@
+{
+    "name": "eagle/di",
+    "authors": [
+        {
+            "name": "parvin",
+            "email": "792027350@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eagle\\DI\\": ""
+        }
+    },
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
