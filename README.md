@@ -185,7 +185,7 @@ $container = new Container;
 
 $container->set(Controller::class, function () {
 
-    $pdo   = new \PDO('mysql:dbname=test;host=localhost', 'root', '111111', [/* options */]);
+    $pdo   = new \PDO('mysql:dbname=test;host=localhost', 'root', '111111');
     $model = new Model;
 
     $model->setPdo($pdo);
