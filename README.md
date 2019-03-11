@@ -50,7 +50,7 @@ echo $response;
 #Container
 Dependency injection Container基于PSR-11规范实现，包括3种注入实现方式：构造方法注入（Constructor Injection）、setter方法或属性注入（Setter Injection）、回调匿名函数注入。
 
-[构造方法注入（Constructor Injection)]
+构造方法注入（Constructor Injection)
 ```
 <?php 
 declare(strict_types=1);
@@ -150,6 +150,7 @@ var_dump($controller instanceof Controller); // true
 var_dump($controller->model instanceof Model); // true
 var_dump($controller->model->pdo instanceof \PDO); // true
 ```
+
 匿名函数注入
 ```
 <?php
@@ -199,7 +200,8 @@ var_dump($controller->model instanceof Model); // true
 var_dump($controller->model->pdo instanceof \PDO); // true
 ```
 
-#自动布线（auto wiring）
+# 自动布线（auto wiring）
+
 ```
 <?php
 declare(strict_types=1);
