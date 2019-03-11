@@ -9,7 +9,7 @@
 ```PHP7以上```
 
 # Route 
-route可以使用symfony的http foundation组件来处理HTPP消息请求（http messages）。
+route可以使用symfony的http foundation组件来处理HTTP消息请求（http messages）。
 ```
 <?php
 require 'vendor/autoload.php';
