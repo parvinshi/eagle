@@ -11,14 +11,21 @@ use Eagle\DI\Exception\NotFoundException;
 
 class Container implements ContainerInterface {
 
+    /** @var DefinitionCollection  */
     protected $definitionCollection;
 
+    /** @var ServiceProviderDispatcher  */
     protected $serviceProvider;
 
+    /** @var bool */
     protected $shared = false;
 
+    /** @var  */
     protected $warpContainer;
 
+    /**
+     * Container constructor.
+     */
     public function __construct()
     {
         $this->definitionCollection = new DefinitionCollection;
@@ -79,7 +86,7 @@ class Container implements ContainerInterface {
     }
 
     /**
-     * 判断
+     * 判断依赖定义或服务是否已添加
      *
      * @param string $id
      * @return bool
@@ -104,6 +111,7 @@ class Container implements ContainerInterface {
 
     /**
      * 自动布线
+     *
      * @param \Psr\Container\ContainerInterface $container
      * @return self
      */
@@ -120,6 +128,7 @@ class Container implements ContainerInterface {
 
     /**
      * 新添加一个服务提供者
+     *
      * @param $provider
      * @return Container
      */

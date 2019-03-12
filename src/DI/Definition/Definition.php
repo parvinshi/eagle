@@ -127,6 +127,9 @@ class Definition implements DefinitionInterface
         return $this;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function addInvokeMethod(string $method, array $args = []) : DefinitionInterface
     {
         $this->methods[] = [
