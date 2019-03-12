@@ -200,7 +200,7 @@ var_dump($controller->model instanceof Model); // true
 var_dump($controller->model->pdo instanceof \PDO); // true
 ```
 
-# 自动布线（auto wiring）
+# 自动装配（auto wiring）
 
 ```
 <?php

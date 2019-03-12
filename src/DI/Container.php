@@ -110,7 +110,7 @@ class Container implements ContainerInterface {
     }
 
     /**
-     * 自动布线
+     * 自动装配
      *
      * @param \Psr\Container\ContainerInterface $container
      * @return self

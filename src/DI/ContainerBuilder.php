@@ -28,7 +28,7 @@ class ContainerBuilder
     }
 
     /**
-     * auto wiring 构建自动布线
+     * auto wiring 构建自动装配
      *
      * @return mixed
      */
