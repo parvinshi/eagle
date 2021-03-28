@@ -9,7 +9,7 @@ PHP7以上
 
 # Route 
 route可以使用symfony的http foundation组件来处理HTTP消息请求（http messages）。
-```
+```php
 <?php
 require 'vendor/autoload.php';
 
@@ -51,7 +51,7 @@ echo $response;
 Dependency injection Container基于PSR-11规范实现，包括3种注入实现方式：构造方法注入（Constructor Injection）、setter类方法或属性注入（Setter Injection）、匿名回调函数注入（ Closure callable Injection ）。
 
 ## 构造方法注入（Constructor Injection)
-```
+```php
 <?php 
 declare(strict_types=1);
 namespace Examples;
@@ -107,7 +107,7 @@ var_dump($foo->bar->baz instanceof Baz); // true
 ```
 
 ## 类方法注入（ Setter Injection ）
-```
+```php
 <?php
 declare(strict_types=1);
 
@@ -152,7 +152,7 @@ var_dump($controller->model->pdo instanceof \PDO); // true
 ```
 
 ## 匿名函数注入（ Closure callable Injection ）
-```
+```php
 <?php
 declare(strict_types=1);
 
@@ -201,8 +201,7 @@ var_dump($controller->model->pdo instanceof \PDO); // true
 ```
 
 ## 自动装配（auto wiring）
-
-```
+```php
 <?php
 declare(strict_types=1);
 
