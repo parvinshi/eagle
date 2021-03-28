@@ -1,12 +1,11 @@
 # Eagle framework
-
-```Eagle框架实现了依赖注入容器（Dependency Injection Container）、路由（route）等组件,其它如ORM、cache、filesystem、session、validation等组件可以使用composer来由用户自由扩展。```
+Eagle框架实现了依赖注入容器（Dependency Injection Container）、路由（route）等组件,其它如ORM、cache、filesystem、session、validation等组件可以使用composer来由用户自由扩展。
 
 # composer安装
-```composer require parvin/eagle-framework```
+composer require parvin/eagle-framework
 
 # php版本要求
-```PHP7以上```
+PHP7以上
 
 # Route 
 route可以使用symfony的http foundation组件来处理HTTP消息请求（http messages）。
