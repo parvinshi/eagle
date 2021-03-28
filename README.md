@@ -1,5 +1,5 @@
 # Eagle framework
-Eagle框架实现了依赖注入容器（Dependency Injection Container）、路由（route）等组件,其它如ORM、cache、filesystem、session、validation等组件可以使用composer来由用户自由扩展。
+Eagle框架实现了依赖注入容器（Dependency Injection Container）、路由（route）等组件,其它如ORM、cache、validation、filesystem等组件可以使用composer来由用户自由扩展。
 
 # composer安装
 composer require parvin/eagle-framework
